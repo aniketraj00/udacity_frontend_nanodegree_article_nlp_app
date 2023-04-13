@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg,#cc2b5e, #753a88);
+    color: #fff;
+}
+
+#main {
+    padding-top: 2.75em;
+}
+
+.header-main {
+    margin-left: 0.5em;
+    margin-bottom: 1.5em;
+
+    h1 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 1.25em;
+        font-weight: 300;
+    }
+}
+
+.result-summary-item {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 1.75em;
+   align-items: center;
+
+    img {
+        height: 3em;
+        width: 3em;
+        margin-right: 1em;
+    }
+
+   .result-summary-item-txt {
+        h1 {
+            font-size: 1em;
+            font-weight: 300;
+            margin-bottom: 0.15em;
+        }
+    
+        h2 {
+            font-size: 1.25em;
+            font-weight: 500;
+        }
+   }
+
+   &:last-child {
+    margin-bottom: 0;
+   }
+}
+
+.sentence-list-header, .result-summary-header {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.sentence-text {
+    font-size: 1.1em;
+    margin-bottom: 0.25em;
+}
+
+.sentence-polarity, .sentence-confidence {
+    font-size: 0.9em;
+    color: #605b5b;
+    >span {
+        font-weight: 500;
+    }
+}
+
+#footer {
+    padding: 2em 0.5em;
+
+    img {
+        width: 10em;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 0.9em;
+        font-weight: 500;
+        margin-bottom: 0.25em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+        font-weight: 300;
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .social-icons {
+        margin-top: 0.75em;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        img {
+            display: inline-block;
+            width: 2em;
+            height: auto;
+            margin-right: 0.5em;
+        }
+    }
+}

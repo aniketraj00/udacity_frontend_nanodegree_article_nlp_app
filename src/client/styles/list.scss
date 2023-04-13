@@ -1,0 +1,28 @@
+$dark: #212529;
+$light: #eee5e5;
+$primary-200: #3b3bb6;
+
+.list {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.3em;
+    background-color: #fff;
+    color: $dark;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
+    .list-item {
+        display: block;
+        font-size: 0.9em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        padding: 0.75em 1.25em;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+    }
+
+}
+
+ul.list {
+    list-style: none;
+}
